@@ -111,7 +111,7 @@ class TimeGPT(nn.Module):
     
     def cosine_decay_lr(self, 
                         it: int,
-                        max_lr: float = 6e-4,
+                        max_lr: float = 3e-4,
                         warmup: int = 100,
                         max_iters:int = 1000
                         )-> float:
